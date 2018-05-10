@@ -16,19 +16,52 @@
       .cls-12,.cls-13,.cls-14,.cls-18{stroke-width:1.5px;}
       .cls-15{stroke-width:0.5px;}
       .cls-19{font-size:14px;font-family:Puritan-Bold, Puritan;font-weight:700;}
-      .cls-2 {
-      <!-- animation: spin 1s infinite;
+      <!-- .cls-2 {
+      animation: spin 1s infinite;
       } -->
 
+      .cls-2  {
+        animation: bounce 2s infinite ease-in-out;
+      }
 
-        @keyframes spin {
-          from {
-            transform: rotate(0deg);
-          }
-          to {
-            transform: rotate(360deg);
-          }
+      .alt {
+        animation: alt_bounce 2s infinite ease-in-out;
+      }
+
+
+
+
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
         }
+        to {
+          transform: rotate(360deg);
+        }}
+
+      @keyframes bounce {
+        0% {
+        transform: translateY(0px);
+        }
+        50% {
+        transform: translateY(-2px);
+        }
+        100% {
+        transform: translateY(0px);
+        }
+      }
+
+      @keyframes alt_bounce {
+        0% {
+        transform: translateY(0px);
+        }
+        50% {
+        transform: translateY(-4px);
+        }
+        100% {
+        transform: translateY(0px);
+        }
+      }
   </style>
   </defs>
   <title>layered</title>
