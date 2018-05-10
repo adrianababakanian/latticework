@@ -37,6 +37,16 @@
         animation-direction: alternate;
       }
 
+      #boats {
+        animation: alt_bounce 2.4s infinite ease-in-out;
+        animation-direction: alternate;
+      }
+
+      #fish {
+        animation: alt_bounce 1s infinite ease-in-out;
+        animation-direction: alternate;
+      }
+
 
 
 
@@ -65,7 +75,7 @@
         transform: translateY(0px);
         }
         50% {
-        transform: translateY(-4px);
+        transform: translateY(-6px);
         }
         100% {
         transform: translateY(0px);
