@@ -50,6 +50,20 @@ i {
   font-weight: bold;
 }
 
+a:link, a:visited, a:active{
+  color: #3c78d8;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3c78d8;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
 body {
   color: #3c78d8;
   font-family: Puritan;
